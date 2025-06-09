@@ -1,0 +1,22 @@
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.wave-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 450px;
+  width: 300px;
+  z-index: 0;
+}
+
+.main-image {
+  position: relative;
+  z-index: 1;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}

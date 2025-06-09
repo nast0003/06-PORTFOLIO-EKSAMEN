@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #e9a9a1;
+  font-family: "Domine";
+  color: #b5482b;
+  text-decoration: none;
+  box-shadow: 0 0 6px 0px #00000030;
+}
+
+a {
+  color: #b5482b;
+  text-decoration: underline;
+}
+
+a:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s ease;
+}
+
+.burger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #b5482b;
+  padding: 15px;
+}
+
+.logo {
+  height: 90px;
+  width: 110px;
+  z-index: 1001;
+  padding: 0;
+}
+
+.popover_menu li {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+.popover_menu li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #b5482b;
+}
+
+.dropdown-menu a {
+  padding: 0.75rem;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  background-color: #b9d6e8;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Cormorant";
+  color: #b5482b;
+  text-align: center;
+  padding-top: 0;
+  font-weight: bold;
+  padding-bottom: 0;
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Cormorant";
+  text-align: center;
+  font-size: 1.5rem;
+  color: #b5482b;
+  margin: 0;
+}
+
+.index-header {
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.tema4-header {
+  padding-bottom: 20px;
+}
+
+.tema5-header {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: "Cormorant";
+  font-size: 1.25rem;
+  color: #b5482b;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  color: #b5482b;
+  font-family: "Domine";
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 2;
+  padding: 15px;
+}
+
+.index-header2 {
+  padding-top: 30px;
+}
+
+.ommig-header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.link-site {
+  text-align: center;
+  padding: 50px;
+}
+
+.cta-wrapper svg {
+  transition: transform 0.2s ease;
+  transform-origin: center;
+}
+
+.cta-wrapper:hover svg {
+  transform: scale(1.5);
+}
+
+footer {
+  background-color: #e9a9a1;
+  min-height: 120px;
+  box-shadow: 0 0 6px 0px #00000030;
+}
+
+.footer_logo {
+  height: 75px;
+  width: 100px;
+  padding: 25px;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(../../fonts/Cormorant_Garamond/static/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Domine";
+  src: url(../../fonts/Domine/static/Domine-Regular.ttf);
+}
