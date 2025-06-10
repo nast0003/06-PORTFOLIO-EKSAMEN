@@ -158,6 +158,10 @@ h1 {
   width: 90%;
 }
 
+.tema2-img {
+  box-shadow: 10px 10px 0 #b5482b;
+}
+
 .tema-section1 {
   display: flex;
   flex-direction: column;
@@ -188,7 +192,7 @@ h1 {
 
   p {
     padding-bottom: 20px;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   nav {
@@ -243,6 +247,8 @@ h1 {
     text-align: left;
     padding-left: 20px;
     padding-bottom: 0;
+    font-family: sans-serif;
+    font-weight: bold;
   }
 
   img {
@@ -280,6 +286,7 @@ h1 {
 
   .tema-img2 {
     width: 500px;
+    box-shadow: 10px 10px 0 #2665e4;
   }
 
   .tema-img3 {
@@ -288,6 +295,7 @@ h1 {
   .tema4-img {
     height: auto;
     width: 400px;
+    box-shadow: 10px 10px 0 #e9a9a1;
   }
 
   .tema2-text,
@@ -374,6 +382,7 @@ h1 {
   .tema3-img {
     height: auto;
     width: 500px;
+    box-shadow: 10px 10px 0 #e08302;
   }
 
   .tema5-img {
