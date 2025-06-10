@@ -275,7 +275,7 @@ h1 {
   }
 
   .index-header {
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: bolder;
     padding-top: 0;
     padding-bottom: 0;
@@ -308,10 +308,14 @@ h1 {
     padding-right: 110px;
   }
 
+  .portfolio-header {
+    padding-top: 100px;
+  }
+
   .index-section1 {
     display: flex;
     flex-direction: row;
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 75px;
     padding-left: 50px;
     gap: 2rem;

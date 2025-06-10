@@ -66,18 +66,18 @@ main {
 }
 
 h1 {
-  font-family: "Cormorant";
+  font-family: sans-serif;
   color: #b5482b;
   text-align: center;
   padding-top: 0;
   font-weight: bold;
   padding-bottom: 0;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
 h2 {
-  font-family: "Cormorant";
+  font-family: sans-serif;
   text-align: center;
   font-size: 1.5rem;
   color: #b5482b;
@@ -100,7 +100,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Cormorant";
+  font-family: sans-serif;
   font-size: 1.25rem;
   color: #b5482b;
   text-align: center;
@@ -161,11 +161,6 @@ footer {
 
 .background-secondary {
   background: #dff3ff;
-}
-
-@font-face {
-  font-family: "Cormorant";
-  src: url(../../fonts/Cormorant_Garamond/static/CormorantGaramond-Regular.ttf);
 }
 
 @font-face {
