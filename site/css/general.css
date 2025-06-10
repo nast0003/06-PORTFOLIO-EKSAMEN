@@ -9,11 +9,11 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
-  background-color: #e9a9a1;
-  font-family: "Domine";
+  background-color: #b9d6e8;
+  font-family: sans-serif;
+  transition: all 0.15s;
   color: #b5482b;
   text-decoration: none;
-  box-shadow: 0 0 6px 0px #00000030;
 }
 
 a {
@@ -149,6 +149,18 @@ footer {
   height: 75px;
   width: 100px;
   padding: 25px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.background-secondary {
+  background: #dff3ff;
 }
 
 @font-face {

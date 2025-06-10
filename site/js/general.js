@@ -34,3 +34,16 @@ window.addEventListener("resize", () => {
     dropdownItem.classList.remove("show");
   }
 });
+
+window.addEventListener("scroll", () => {
+  const headerEl = document.querySelector("header");
+  if (window.scrollY > 50) {
+    if (headerEl) {
+      headerEl.style.backgroundColor = "#e9a9a1";
+      headerEl.style.boxShadow = "0 0 6px 0px #00000030";
+    }
+  } else if (headerEl) {
+    headerEl.style.backgroundColor = "#b9d6e8";
+    headerEl.style.boxShadow = "none";
+  }
+});

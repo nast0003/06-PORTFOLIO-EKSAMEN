@@ -237,6 +237,7 @@ h1 {
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    height: 600px;
   }
 
   .portfolio-section.reverse {
@@ -301,6 +302,7 @@ h1 {
   .tema2-text,
   .tema3-text,
   .tema4-text,
+  .tema-header,
   .tema5-text {
     padding-left: 110px;
     padding-right: 110px;
@@ -373,15 +375,16 @@ h1 {
   }
 
   .portfolio-img5 {
-    width: 700px;
-    height: 200px;
+    width: 100%;
+    aspect-ratio: initial;
+    height: initial;
     display: block;
     box-shadow: 10px 10px 0 #2665e4;
   }
 
   .tema3-img {
     height: auto;
-    width: 500px;
+    width: 100%;
     box-shadow: 10px 10px 0 #e08302;
   }
 
@@ -397,6 +400,7 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     padding: 50px;
+    padding-bottom: 0px;
   }
 
   .ommig-section2 {
@@ -423,6 +427,11 @@ h1 {
 
   .ommig-img {
     width: 66%;
+    padding-bottom: 0;
+  }
+
+  .ommig-img img {
+    width: 500px;
   }
 
   .ommig-logo {
@@ -437,6 +446,7 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .tema-section2 {
@@ -445,7 +455,7 @@ h1 {
     gap: 1rem;
     background-color: #dff3ff;
     padding-top: 50px;
-    padding-bottom: 35px;
+    padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
   }
