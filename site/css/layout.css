@@ -149,6 +149,14 @@ h1 {
   gap: 1rem;
 }
 
+.tema3-img {
+  box-shadow: 10px 10px 0 #e08302;
+}
+
+.tema4-img {
+  box-shadow: 10px 10px 0 #e9a9a1;
+}
+
 .index-img3 {
   width: 90%;
   display: block;
